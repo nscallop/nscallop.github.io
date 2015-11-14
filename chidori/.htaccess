@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !(^/ja-JP/.*$|.*(png|css|js|jpg|jpeg)$)
+RewriteCond %{HTTP:Accept-Language} ^ja [NC]
+RewriteRule ^(.*)$ /ja-JP/$1 [R=301,L]
+</IfModule>
