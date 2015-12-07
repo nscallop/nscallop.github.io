@@ -510,6 +510,20 @@ section {
 }
 
 
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footer {
+  min-width: 300px;
+  background-color: #323a45;
+  text-align: center;
+}
+
+.footer p {
+  padding-top: 1em;
+  color: #747c83;
+}
+
+
 /* Bigger than Phone */
 @media (min-width: 550px) {
 
