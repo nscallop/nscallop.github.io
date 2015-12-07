@@ -1,5 +1,9 @@
 /* Util
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .notransition {
   -webkit-transition: none !important;
   transition: none !important;
