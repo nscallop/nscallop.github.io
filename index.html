@@ -23,7 +23,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -37,10 +37,73 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
-<body>
+<body class="code-snippets-visible">
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <input type="checkbox" id="dn-menustate" class="dn-menustate" />
+  <nav id="nav">
+    <div class="nav-container">
+      <div class="dynamic-navbar">
+        <ul class="dn-list">
+          <li class="dn-item dn-menuicon">
+            <label class="dn-menuicon-label" for="dn-menustate" aria-hidden="true">
+              <span class="dn-menuicon-bread dn-menuicon-bread-top">
+                <span class="dn-menuicon-bread-crust dn-menuicon-bread-crust-top"></span>
+              </span>
+              <span class="dn-menuicon-bread dn-menuicon-bread-bottom">
+                <span class="dn-menuicon-bread-crust dn-menuicon-bread-crust-bottom"></span>
+              </span>
+            </label>
+            <a href="#dn-menustate" class="dn-menuanchor dn-menuanchor-open" id="dn-menuanchor-open"> <span class="dn-menuanchor-label">Open Menu</span> </a>
+  				<a href="#" class="dn-menuanchor dn-menuanchor-close" id="dn-menuanchor-close"> <span class="dn-menuanchor-label">Close Menu</span> </a>
+          </li>
+          <li class="dn-item dn-logo">
+            <a href="#"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="static-navbar">
+        <div class="sn-item sn-logo">
+          <a href="#"></a>
+        </div>
+        <ul class="sn-list">
+          <li class="sn-item sn-item-menu">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="sn-item sn-item-menu">
+            <a href="#about">About</a>
+          </li>
+          <li class="sn-item sn-item-menu">
+            <a href="http://qiita.com/tags/nscallop">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <section id="hero" class="hero">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2 class="hero-heading">Make better life than today.</h2>
+<!--
+      <ul class="sns">
+        <li><a target="_blank" class="twitter" href="https://twitter.com/micchyboy" ><i class="fa fa-twitter fa-2x"></i></a></li>
+        <li><a target="_blank" class="github" href="https://github.com/micchyboy1023"><i class="fa fa-github fa-2x"></i></a></li>
+        <li><a target="_blank" class="dribbble" href="https://dribbble.com/micchyboy"><i class="fa fa-dribbble fa-2x"></i></a></li>
+      </ul>
+-->
+    </div>
+
+  </section>
+  
+  <footer class="footer">
+    <div class="container">
+      <div>
+        <p>© 2015 nscallop</p>
+      </div>
+    </div>
+  </footer>
   
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
