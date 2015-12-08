@@ -16,8 +16,8 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-  color: #197fc3;
-  border-color: #197fc3;
+  color: #398ECA;
+  border-color: #398ECA;
 }
 
 .button:hover,
@@ -31,8 +31,8 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
   color: #fff;
-  background-color: #197fc3;
-  border-color: #197fc3;
+  background-color: #398ECA;
+  border-color: #398ECA;
 }
 
 
@@ -411,7 +411,7 @@ input[type="button"]:focus {
 }
 
 #nav .sn-item-menu a:hover {
-  color: #197fc3;
+  color: #398ECA;
 }
 
 
@@ -438,11 +438,11 @@ section {
 }
 
 .section-heading.blue {
-  color: #197fc3;
+  color: #398ECA;
 }
 
 .section-heading.blue:after {
-  background: #197fc3;
+  background: #398ECA;
 }
 
 .section-heading.white {
@@ -451,6 +451,10 @@ section {
 
 .section-heading.white:after {
   background: #fff;
+}
+
+.section-sub-heading {
+  margin-bottom: 5rem;
 }
 
 
@@ -464,10 +468,13 @@ section {
   color: #fff;
   min-height: 450px;
   position: relative;
+  min-height: 600px;
+  height: 100vh;
+  padding: 0;
 }
 
 .hero .overlay {
-  background-color: rgba(25, 127, 195, 0.8);
+  background-color: rgba(57, 142, 202, 0.8);
   position: absolute;
   top: 0;
   left: 0;
@@ -475,10 +482,16 @@ section {
   height: 100%;
 }
 
-.hero-heading {
-  padding: 9rem 0 7rem 0;
+.hero-content {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
-
 
 .sns li {
   display: inline-block;
@@ -514,6 +527,34 @@ section {
 }
 
 
+/* About
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.about {
+  background-color: #323a45;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+
+.about-philosophy {
+  padding-bottom: 8rem;
+  text-align: center;
+}
+
+.about-members {
+  padding-bottom: 8rem;
+}
+
+.about-members .member {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.member .member-img {
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+}
+
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .footer {
@@ -531,6 +572,14 @@ section {
 /* Bigger than Phone */
 @media (min-width: 550px) {
 
+  .about-members .member {
+    padding-bottom: 0;
+  }
+  
+  .member .member-img {
+    width: 80%;
+    height: 80%;
+  }
 }
 
 
@@ -571,16 +620,16 @@ section {
     float: left;
     margin-bottom: 0;
   }
+  
 }
 
 
 /* Bigger than PC */
 @media (min-width: 1000px) {
 
-  .creative-description {
-    max-width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+  .member .member-img {
+    width: 60%;
+    height: 60%;
   }
 
 }
