@@ -461,7 +461,7 @@ section {
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero {
-/*   background-image: url('../images/hero.jpg'); */
+  background-image: url('../images/hero.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat:no-repeat;
@@ -526,6 +526,24 @@ section {
   border-color: #333333;
 }
 
+/* Projects
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.project-icon {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 0 20px 0 0;
+}
+
+.project .chidori-back {
+  background-image: url('../images/chidori-back.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat:no-repeat;
+  min-height: 450px;
+  position: relative;
+}
 
 /* About
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
