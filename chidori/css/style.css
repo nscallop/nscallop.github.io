@@ -107,10 +107,22 @@ section {
 }
 
 .app-store {
+  display: inline-block;
+}
+
+.app-store a {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 135px 40px;
+  background-image: url("../images/appstore.svg");
+  background-position: center center;
+  width: 135px;
+  height: 40px;
   padding: 0 1rem;
 }
 
 .google-play {
+  display: inline-block;
   padding: 0 1rem;
 }
 
