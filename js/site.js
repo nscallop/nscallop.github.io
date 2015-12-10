@@ -3,7 +3,7 @@ $(function() {
   $(window).on('resize', function() {
     
     //Show PC navigation for PC
-    if ($('.sn-logo').css('display') === 'block') {
+    if ($('.sn-logo').css('display') === 'inline-block') {
       
       var menustate = $('#dn-menustate');
       var nav = $('#nav');
