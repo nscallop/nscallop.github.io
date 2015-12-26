@@ -91,6 +91,13 @@ section {
   padding: 0;
 }
 
+/* for high resolution */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 144dppx) {
+  .hero {
+    background-image: url('../images/hero_2x.jpg');
+  }
+}
+
 .hero-content {
   margin-top: 0;
   margin-bottom: 0;
@@ -146,14 +153,14 @@ footer a {
 
 
 /* Bigger than Phone */
-@media (min-width: 550px) {
+@media only screen and (min-width: 550px) {
 
  
 }
 
 
 /* Bigger than Tablet */
-@media (min-width: 750px) {
+@media only screen and (min-width: 750px) {
 
 
   
@@ -161,7 +168,6 @@ footer a {
 
 
 /* Bigger than PC */
-@media (min-width: 1000px) {
-
+@media only screen and (min-width: 1000px) {
 
 }

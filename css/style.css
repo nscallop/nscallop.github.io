@@ -461,7 +461,7 @@ section {
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero {
-  background-image: url('../images/hero.jpg');
+  background-image: url('../images/hero.jpg');                                                               
   background-size: cover;
   background-position: center center;
   background-repeat:no-repeat;
@@ -472,16 +472,14 @@ section {
   padding: 0;
 }
 
-/*
-.hero .overlay {
-  background-color: rgba(57, 142, 202, 0.0);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+/* for high resolution */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 144dppx) {
+  .hero {
+    background-image: url('../images/hero_2x.jpg');
+  }
 }
-*/
+
+
 
 .hero-content {
   margin-top: 0;
@@ -589,7 +587,7 @@ section {
 
 
 /* Bigger than Phone */
-@media (min-width: 550px) {
+@media only screen and (min-width: 550px) {
 
   .about-members .member {
     padding-bottom: 0;
@@ -603,7 +601,7 @@ section {
 
 
 /* Bigger than Tablet */
-@media (min-width: 750px) {
+@media only screen and (min-width: 750px) {
 
   /* Navigation Bar
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -644,7 +642,18 @@ section {
 
 
 /* Bigger than PC */
-@media (min-width: 1000px) {
+@media only screen and (min-width: 1000px) {
+  
+  .hero {
+    background-image: url('../images/hero_large.jpg');    
+  }
+  
+  /* for high resolution */
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 144dppx) {
+    .hero {
+      background-image: url('../images/hero_large_2x.jpg');
+    }
+  }  
 
   .member .member-img {
     width: 60%;
