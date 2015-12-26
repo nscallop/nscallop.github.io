@@ -1,0 +1,26 @@
+{
+  "name": "nscallop.github.io",
+  "version": "1.0.0",
+  "description": "Web site for nscallop.jp",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css",
+    "ws": "ws"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nscallop/nscallop.github.io.git"
+  },
+  "author": "nscallop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nscallop/nscallop.github.io/issues"
+  },
+  "homepage": "https://github.com/nscallop/nscallop.github.io#readme",
+  "devDependencies": {
+    "local-web-server": "^1.1.0",
+    "node-sass": "^3.4.2",
+    "nodemon": "^1.8.1"
+  }
+}
