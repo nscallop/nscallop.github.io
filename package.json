@@ -6,6 +6,8 @@
   "scripts": {
     "build-css": "./bin/build-css",
     "watch-css": "./bin/watch-css",
+    "build-css-chidori": "./chidori/bin/build-css",
+    "watch-css-chidori": "./chidori/bin/watch-css",
     "ws": "ws"
   },
   "repository": {
