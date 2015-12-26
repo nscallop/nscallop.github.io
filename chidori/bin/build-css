@@ -1,0 +1,1 @@
+node-sass --include-path scss chidori/scss/main.scss chidori/css/style.css
