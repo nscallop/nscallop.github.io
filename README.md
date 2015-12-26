@@ -12,6 +12,8 @@ This project uses npm.
 
 `npm install`
 
+##Team Page
+
 ###Compile scss
 
 `npm run build-css`
@@ -23,3 +25,13 @@ This project uses npm.
 ###Run local server
 
 `npm run ws`
+
+##Chidori
+
+###Compile scss
+
+`npm run build-css-chidori`
+
+###Watch scss
+
+`npm run watch-css-chidori`
