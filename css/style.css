@@ -495,6 +495,8 @@ section {
     line-height: 44px;
     -webkit-transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.3s;
     transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.3s; }
+  .sns-list a:hover i {
+    color: #fff; }
 
 .sns-list .twitter:hover {
   background: #59adeb;

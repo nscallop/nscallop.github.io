@@ -212,6 +212,12 @@ section {
       -webkit-transition: all cubic-bezier(.645, .045, .355, 1) .3s;
       transition: all cubic-bezier(.645, .045, .355, 1) .3s;
   	}
+  	
+  	&:hover {
+    	i {
+      	color: $white-color;
+    	}
+  	}
   }
   
   .twitter {
