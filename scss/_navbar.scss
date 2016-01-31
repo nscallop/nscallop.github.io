@@ -295,7 +295,7 @@ $navbar-animation-duration: 0.35s;
     a {
       color: $white-color;
       background-repeat: no-repeat;
-      background-size: round($navbar-height/2) $navbar-height;
+      background-size: round($navbar-height/2) round($navbar-height/2);
       background-image: url("../images/logo.svg");
       background-position: center center;
       display: inline-block;
@@ -330,7 +330,7 @@ $navbar-animation-duration: 0.35s;
     a {
       color: $white-color;
       background-repeat: no-repeat;
-      background-size: round($navbar-height/2) $navbar-height;
+      background-size: round($navbar-height/2) round($navbar-height/2);
       background-image: url("../images/logo.svg");
       background-position: center center;
       display: inline-block;
