@@ -4,7 +4,7 @@ Web site for nscallop.jp
 
 ##npm
 
-This project uses npm.
+This project uses npm and gulp.
 
 `brew install node`
 
@@ -12,26 +12,6 @@ This project uses npm.
 
 `npm install`
 
-##Team Page
+##Check run script
 
-###Compile scss
-
-`npm run build-css`
-
-###Watch scss 
-
-`npm run watch-css`
-
-###Run local server
-
-`npm run ws`
-
-##Chidori
-
-###Compile scss
-
-`npm run build-css-chidori`
-
-###Watch scss
-
-`npm run watch-css-chidori`
+`npm run`
