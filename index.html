@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: //ogp.me/ns#">
 <head>
-  
+
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
@@ -12,7 +12,7 @@
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <!-- Open Graph Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta property="og:site_name" content="nscallop" />
@@ -21,23 +21,17 @@
   <meta property="og:url" content="//nscallop.jp" />
   <meta property="og:image" content="//nscallop.jp/images/nscallop.png" />
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/vendor.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
-<body class="code-snippets-visible">
+<body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -81,7 +75,7 @@
       </div>
     </div>
   </nav>
-  
+
   <section id="hero" class="hero">
     <div class="hero-content">
       <div class="container">
@@ -89,7 +83,7 @@
       </div>
     </div>
   </section>
-  
+
   <section id="projects" class="projects">
     <h2 class="section-heading blue">Projects</h2>
     <div class="project">
@@ -99,58 +93,62 @@
           Chidori
         </h3>
         <p>You can record your drinking experience with Chidori. Take photo of liquor, and input a little information. That's all. You can look back your logs with beautiful list.</p>
-        <a target="_blank" href="//nscallop.jp/chidori">check chidori</a>
+        <a class="btn btn-primary-outline" target="_blank" href="//nscallop.jp/chidori">check chidori</a>
       </div>
     </div>
   </section>
-  
+
   <section id="about" class="about">
     <div class="container">
       <h2 class="section-heading white">About</h2>
       <div class="about-philosophy">
         <h3 class="section-sub-heading">Philosophy</h3>
-        <p>"nscallop" is a creative engineering team in Japan. The philosophy of our team is "Make better life than today". We believe code and design make the world move forward.</p>
+        <p>"nscallop" is a creative engineering team in Japan. <br>The philosophy of our team is "Make better life than today". <br>We believe code and design make the world move forward.</p>
       </div>
       <div class="about-members">
         <h3 class="section-sub-heading">Members</h3>
         <div class="row">
-          <div class="three columns">
+          <div class="col-md-3">
             <div class="member">
               <img class="member-img" src="images/member_espocial.png" alt="espocial">
               <p>@espocial</p>
+              <p>Infla Engineer</p>
             </div>
-  
+
           </div>
-          <div class="three columns">
+          <div class="col-md-3">
             <div class="member">
               <a target="_blank" href="//www.hitting.jp">
                 <img class="member-img" src="images/member_hitting.png" alt="hitting1024">
                 <p>@hitting1024</p>
               </a>
+              <p>Software Engineer</p>
             </div>
           </div>
-          <div class="three columns">
+          <div class="col-md-3">
             <div class="member">
               <a target="_blank" href="//uetamasamichi.com">
                 <img class="member-img" src="images/member_micchyboy.png" alt="micchyboy">
                 <p>@micchyboy</p>
               </a>
+              <p>Design Engineer</p>
             </div>
           </div>
-          <div class="three columns">
+          <div class="col-md-3">
             <div class="member">
               <img class="member-img" src="images/member_onodes.png" alt="onodes">
               <p>@onodes</p>
+              <p>Full Stack Engineer</p>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    
+
   </section>
-  
-  
+
+
   <footer class="footer">
     <div class="container">
       <div class="sns">
@@ -160,18 +158,16 @@
         </ul>
       </div>
       <div class="copyright">
-        <p>© 2015 nscallop</p>
+        <p>© 2013 - 2016 nscallop</p>
       </div>
     </div>
   </footer>
-  
+
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="//google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
-  <link rel="stylesheet" href="css/github-prettify-theme.css">
+  <script src="js/vendor.js"></script>
   <script src="js/site.js"></script>
-  
+
   <!-- Google Analytics
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script>
@@ -179,12 +175,12 @@
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  
+
     ga('create', 'UA-44033841-1', 'auto');
     ga('send', 'pageview');
 
   </script>
-  
+
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
