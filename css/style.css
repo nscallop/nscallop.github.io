@@ -1,5 +1,6 @@
 @charset "UTF-8";
 .notransition {
+  -webkit-transition: none !important;
   transition: none !important; }
 
 /* Navigation Bar
@@ -167,8 +168,7 @@
     display: none; }
   #nav .dn-menuanchor-label {
     border: 0;
-    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
-            clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
     clip: rect(1px 1px 1px 1px);
     clip: rect(1px, 1px, 1px, 1px);
     height: 1px;
@@ -266,6 +266,15 @@
       transition: color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1); }
       #nav .sn-item-menu a:hover {
         color: #398ECA; }
+
+@-webkit-keyframes slidein-animation {
+  0% {
+    opacity: 0; }
+  1% {
+    transform: translateX(160px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
 
 @keyframes slidein-animation {
   0% {
@@ -382,13 +391,13 @@ section {
   min-height: 600px;
   padding: 0;
   position: relative; }
-  @media only screen and (-webkit-min-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 144dppx) {
     .hero {
       background-image: url("../images/hero_2x.jpg"); } }
   @media only screen and (min-width: 1000px) {
     .hero {
       background-image: url("../images/hero_large.jpg"); } }
-  @media only screen and (min-width: 1000px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1000px) and (min-resolution: 144dpi), only screen and (min-width: 1000px) and (-webkit-min-device-pixel-ratio: 144), only screen and (min-width: 1000px) and (min-resolution: 144dppx) {
+  @media only screen and (min-width: 1000px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1000px) and (min-resolution: 144dpi), only screen and (min-width: 1000px) and (min-resolution: 144dppx) {
     .hero {
       background-image: url("../images/hero_large_2x.jpg"); } }
 
@@ -449,7 +458,8 @@ section {
   text-align: center; }
   .footer p {
     color: #747c83;
-    padding-top: 1em; }
+    margin: 0;
+    padding-bottom: 2rem; }
 
 .sns {
   padding-top: 3rem; }

@@ -2,7 +2,7 @@
 
 Web site for nscallop.jp
 
-##npm
+## npm
 
 This project uses npm and gulp.
 
@@ -12,6 +12,6 @@ This project uses npm and gulp.
 
 `npm install`
 
-##Check run script
+## Check run script
 
-`npm run`
+`npm build-css`
